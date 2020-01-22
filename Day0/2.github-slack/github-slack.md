@@ -23,20 +23,25 @@
 
 # 4. slack で リポジトリーを subscribe する
 - slackにgithubの通知を流せる様にします。
-- まず、githubで自分の username を `{username}` を自分のものに置き換える。
+- まず、githubで自分の username を確認して、以下の `{username}` を自分のものに置き換える。
   - 例えば、 username が `juschin` だったら、 `juschin/count` みたいな
   - usernameはgithubのここです↓写真参照↓
-  [![Image from Gyazo](https://i.gyazo.com/c1ecbb26f4968001d7bba03ebc2cb0df.png)](https://gyazo.com/c1ecbb26f4968001d7bba03ebc2cb0df)
+
+[![Image from Gyazo](https://i.gyazo.com/c1ecbb26f4968001d7bba03ebc2cb0df.png)](https://gyazo.com/c1ecbb26f4968001d7bba03ebc2cb0df)
 
 - slackに `/github subscribe {username}/count` と打ってみよう
 - 写真の様になってれば、okです。
+
 [![Image from Gyazo](https://i.gyazo.com/9bb4d8781a9d8c4dc99ee3b36254dc95.png)](https://gyazo.com/9bb4d8781a9d8c4dc99ee3b36254dc95)
 
+
 # 5.通知がslackに届くか確認する
-  - githubに戻って、`count` のリポジトリを開いて、 `①issue とうタブを押して`、`② New issue というボタンを押してね`。
+  - githubに戻って、`count` のリポジトリを開いて、 `①issue というタブを押して`、`② New issue というボタンを押してね`。
   [![Image from Gyazo](https://i.gyazo.com/b6ad80aca242611021ea54c0d3c27c47.png)](https://gyazo.com/b6ad80aca242611021ea54c0d3c27c47)
+
   - 簡単な自己紹介を入力して、 `submit new issue` を押してね。
-  [![Image from Gyazo](https://i.gyazo.com/ 0a4ff21809dcb8996d2231779d1951d2.png)](https://gyazo.com/0a4ff21809dcb8996d2231779d1951d2)
+  [![Image from Gyazo](https://i.gyazo.com/0a4ff21809dcb8996d2231779d1951d2.png)](https://gyazo.com/0a4ff21809dcb8996d2231779d1951d2)
+
   - slackにさっき投稿した issue が表示されていれば、slackとgithubの連携の完了です。
   [![Image from Gyazo](https://i.gyazo.com/3cc3b74d00d04809b511bbbe768e4b58.png)](https://gyazo.com/3cc3b74d00d04809b511bbbe768e4b58)
 
