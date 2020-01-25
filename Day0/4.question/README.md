@@ -13,9 +13,9 @@
 ## 3.エラーの質問
 ### 3-1質問までの流れ
 1. 開発を進めていく中で、自分で解決できないエラーがなどが発生したら、質問する前にgithubにエラーが出ている状態のコードをpushしてください。
-2. 次に、github の issue を利用して質問を行います。以下のフォーマットで質問するようにお願いします！
-- **issueにGyazoの画像/gifを貼る時は、以下の画像のリンクをコピーする。**
-[![Image from Gyazo](https://i.gyazo.com/f9f76e94436e99fd2d084d191cddbb0e.png)](https://gyazo.com/f9f76e94436e99fd2d084d191cddbb0e)
+2. 次に、github の **issue** を利用して質問を行います。以下のフォーマットで質問するようにお願いします！
+- こんな感じの issue になります。
+[![Image from Gyazo](https://i.gyazo.com/4185633ec4117731b3697c52fe107acf.png)](https://gyazo.com/4185633ec4117731b3697c52fe107acf)
 
 ### 3-2 Title
 - エラーの状態を書いてください。(以下例)
@@ -24,6 +24,8 @@
 ```
 ### 3-3 Comment
 - 以下のフォーマットに沿って、エラーの状態を詳しく書いてください。
+- **issueにGyazoの画像/gifを貼る時は、以下の画像のリンクをコピーする。**
+[![Image from Gyazo](https://i.gyazo.com/f9f76e94436e99fd2d084d191cddbb0e.png)](https://gyazo.com/f9f76e94436e99fd2d084d191cddbb0e)
 ```
 # 概要(何をしようとして、何をしたら、どんなエラーが出たのか)
 
@@ -37,6 +39,7 @@
 - カウントアプリの数字を増やそうと、プラスボタンを押したのですが、数字が増えないです
 # エラー画面やターミナルのスクリーンショット
 - エラー画面
+
 [![Image from Gyazo](https://i.gyazo.com/ea6d5f968a67cbefc0198a705c944dd0.png)](https://gyazo.com/ea6d5f968a67cbefc0198a705c944dd0)
 - ターミナル画面
 [![Image from Gyazo](https://i.gyazo.com/ac64b6fecb9f654b289773ea98fc8959.png)](https://gyazo.com/ac64b6fecb9f654b289773ea98fc8959)
@@ -44,8 +47,6 @@
 - https://stackoverflow.com/questions/27174102/sinatra-doesnt-know-this-ditty
 - https://qiita.com/yaegaki/items/da98bc9d8feb43b8ef77
 ```
-- こんな感じの issue になります。
-[![Image from Gyazo](https://i.gyazo.com/4185633ec4117731b3697c52fe107acf.png)](https://gyazo.com/4185633ec4117731b3697c52fe107acf)
 - Previewボタンを押すと、submitした後の表示を確認する事ができます。ミスがないか確認しておくと安心。
 [![Image from Gyazo](https://i.gyazo.com/653df3f9ac019871bb853dde620c6f2d.png)](https://gyazo.com/653df3f9ac019871bb853dde620c6f2d)
 
