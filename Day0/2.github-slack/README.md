@@ -26,8 +26,8 @@
 [![Image from Gyazo](https://i.gyazo.com/a222a67e45d61f029cfd10abb3f100a2.png)](https://gyazo.com/a222a67e45d61f029cfd10abb3f100a2)
 
 # 4. slack で リポジトリーを subscribe する
-1. ここまでは、slackでgithubと連携する準備が整えただけで、実際に通知を受け取りたいリポジトリの登録は完了していません。
-2. slackに先ほど作成したcountのリポジトリの通知を受け取れるように、`{username}` を自分のgithubのusernameに置き換て、slackで`/github subscribe {username}/count` と打ってみよう
+1. slackにgithubの活動の通知を流すためには、slackで `/github subscribe {username}/{repository name}` のコマンドを実行する必要があります。
+2. ここでは、slackに先ほど作成した`count`のリポジトリの通知を受け取れるように、`{username}` を自分のgithubのusernameに置き換て、slackで`/github subscribe {username}/count` と打ってみよう
 3. `{username}`、githubで確認することができます。
   - 例えば、 username が `juschin` だったら、 `juschin/count` みたいな
   - usernameはgithubのここです↓写真参照↓
