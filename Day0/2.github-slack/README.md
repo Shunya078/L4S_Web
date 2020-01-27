@@ -12,7 +12,7 @@
 
 # 3. slack で github に singin する
 - 次に、slackでgithubとの連携を行います。
-1. `チャンネル名`で `/github signin` と入力して Enter を押してください。
+1. `lfs7-52webs-west`で `/github signin` と入力して Enter を押してください。
 [![Image from Gyazo](https://i.gyazo.com/66d1130d83b4dd802f074156b97460e2.png)](https://gyazo.com/66d1130d83b4dd802f074156b97460e2)
 2. 次に、slackに以下の写真の様な返答が出てくるので、`Connect github account` を押してください。
 [![Image from Gyazo](https://i.gyazo.com/fe6fe559990fa5fb1f0c7de667b51849.png)](https://gyazo.com/fe6fe559990fa5fb1f0c7de667b51849)
