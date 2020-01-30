@@ -26,15 +26,15 @@
 [![Image from Gyazo](https://i.gyazo.com/a222a67e45d61f029cfd10abb3f100a2.png)](https://gyazo.com/a222a67e45d61f029cfd10abb3f100a2)
 
 # 4. slack で リポジトリーを subscribe する
-1. slackにgithubの活動の通知を流すためには、slackで `/github subscribe {username}/{repository name}` のコマンドを実行する必要があります。
-2. ここでは、slackに先ほど作成した`count`のリポジトリの通知を受け取れるように、`{username}` を自分のgithubのusernameに置き換て、slackで`/github subscribe {username}/count` と打ってみよう
+1. slackにgithubの活動の通知を流すためには、slackで `/github subscribe {username}/{repository name}　comments` のコマンドを実行する必要があります。**(commentsはissueへの返信をslackに流すために必要です)**
+2. ここでは、slackに先ほど作成した`count`のリポジトリの通知を受け取れるように、`{username}` を自分のgithubのusernameに置き換て、slackで`/github subscribe {username}/count comments` と打ってみよう
 3. `{username}`、githubで確認することができます。
   - 例えば、 username が `juschin` だったら、 `juschin/count` みたいな
   - usernameはgithubのここです↓写真参照↓
 
 [![Image from Gyazo](https://i.gyazo.com/c1ecbb26f4968001d7bba03ebc2cb0df.png)](https://gyazo.com/c1ecbb26f4968001d7bba03ebc2cb0df)
 
-- slackに `/github subscribe {username}/count` を打ち込んだ後の様子。
+- slackに `/github subscribe {username}/count comments` を打ち込んだ後の様子。
 
 [![Image from Gyazo](https://i.gyazo.com/9bb4d8781a9d8c4dc99ee3b36254dc95.png)](https://gyazo.com/9bb4d8781a9d8c4dc99ee3b36254dc95)
 

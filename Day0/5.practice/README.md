@@ -19,12 +19,12 @@
 # 事前課題のリポジトリをslackと連携させる
 - [githubとslackを連携させよう](./Day0/2.github-slack/)の手順で、残りのリポジトリもslackと連携させていきましょう。
 - 登録するリポジトリ名は、このテキスト通りであれば以下のようになります。ただ、任意のリポジトリ名を登録した場合はリポジトリ名に合わせて、subscribeするリポジトリも変えてください。
-  - `/github subscribe {username}/wikipedia`
-  - `/github subscribe {username}/express`
-  - `/github subscribe {username}/login`
-  - `/github subscribe {username}/quiz`
-  - `/github subscribe {username}/bookmark`
-  - `/github subscribe {username}/bbs`
+  - `/github subscribe {username}/wikipedia comments`
+  - `/github subscribe {username}/express comments`
+  - `/github subscribe {username}/login comments`
+  - `/github subscribe {username}/quiz comments`
+  - `/github subscribe {username}/bookmark comments`
+  - `/github subscribe {username}/bbs comments`
 - 各リポジトリの`issue`などで、githubとslackの連携が確認できればokです！
 
 # gitのコマンドを使うタイミング
