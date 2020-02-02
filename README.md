@@ -10,6 +10,10 @@
 6. [事前課題](https://docbase.io/posts/1095993/sharing/1529c76b-fbec-4a56-9ece-b4fa97a0a393)
 
 # Day1(2/10)(残り5週間)
+  - checkform
+  - lecture
+  - practice
+  - homework
 
 # Day1 ~ Day2
 
