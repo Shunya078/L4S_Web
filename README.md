@@ -12,7 +12,7 @@
 # Day1(2/10)(残り5週間)
   - checkform
   - lecture
-  - practice
+  - [practice](./Day1/practice/)
   - homework
 
 # Day1 ~ Day2
