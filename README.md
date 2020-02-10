@@ -10,19 +10,14 @@
 6. [事前課題](https://docbase.io/posts/1095993/sharing/1529c76b-fbec-4a56-9ece-b4fa97a0a393)
 
 # Day1(2/10)(残り5週間)
-
-# Day1 ~ Day2
+1. [lecture](./Day1/lecture/)
+2. [practice](./Day1/practice/)
+- [homework](./Day1/homework/)
 
 # Day2(2/17)(残り4週間)
 
-# Day2 ~ Day3
-
 # Day3(2/24)(残り3週間)
-
-# Day3 ~ Day4
 
 # Day4(3/2)(残り2週間)
   
-# Day4 ~ Day5
-
 # Day5(最終発表)(3/16)
