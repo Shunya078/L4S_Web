@@ -8,9 +8,9 @@ class App
         message = "Hello World"
       end
     [
-    200,
-      { 'Content-Type' => 'text/html; charset=utf-8' },
-      ["<html><body>#{message}</body></html>"]
+      200, # ステータスコード
+      { 'Content-Type' => 'text/html; charset=utf-8' }, # Header
+      ["<html><body>#{message}</body></html>"] # body
     ]
   end
 end
