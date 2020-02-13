@@ -1,6 +1,7 @@
 # l4s7期WebSのリポジトリ(全7週間)
 
 # Day0(1/24)(残り7週間)
+- [Day0](./Day0)
 0. [事前準備](./Day0/0.preparation/)
 1. [githubのリポジトリを作成しよう](./Day0/1.github-first/)
 2. [githubとslackを連携させよう](./Day0/2.github-slack/)
@@ -10,9 +11,10 @@
 6. [事前課題](https://docbase.io/posts/1095993/sharing/1529c76b-fbec-4a56-9ece-b4fa97a0a393)
 
 # Day1(2/10)(残り5週間)
+- [Day1](./Day1)
 1. [lecture](./Day1/lecture/)
 2. [practice](./Day1/practice/)
-- [homework](./Day1/homework/)
+3. [homework](./Day1/homework/)
 
 # Day2(2/17)(残り4週間)
 

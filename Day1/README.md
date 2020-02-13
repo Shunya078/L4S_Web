@@ -20,4 +20,4 @@
 ## 資料
 - [講義編](./lecture/)
 - [実践編](./practice/)
-- [講義編](./homework/)
+- [宿題](./homework/)
