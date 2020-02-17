@@ -1,0 +1,1 @@
+List.create([{name: "定番商品"},{name: "季節の商品"}])

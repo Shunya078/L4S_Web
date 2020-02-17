@@ -1,0 +1,42 @@
+<div>
+  <form action="/breads" method="post" enctype="multipart/form-data">
+    <div>
+      <div>
+        <p>パンの名前：<input type="text" name="name" placeholder="なにパン？"><br></p>
+        <p>値段：<input type="text" name="price" placeholder="いくら？"><br></p>
+        リスト：
+        <select name="list">
+          <% List.all.each do |list|%>
+            <option value="<%= list.id%>"
+              selected>
+            <%= list.name%>
+            </option>
+          <% end %>
+        </select>
+        <p>画像を選択：<input type="file" name="file"></p>
+      </div>
+      <div>
+        <input type="submit" value="登録">
+      </div>
+    </div>
+  </form>
+  <ul>
+    <% @breads.each do |bread|%>
+    <li>
+      <p>パンの名前：<%= bread.name%></p>
+      <p>パンの値段：<%= bread.price%></p>
+      <% unless bread.img.empty? %>
+      <p>パンの画像：<img src="<%= bread.img %>"></p>
+      <% end %>
+      <span>
+        <form action="/delete/<%= bread.id %>" method="post">
+          <input type = "submit" value="削除">
+        </form>
+      </span>
+    </li>
+    <% end %>
+  </ul>
+  <form action="/edit" method="post">
+    <input type = "submit" value="更新">
+  </form>
+</div>
